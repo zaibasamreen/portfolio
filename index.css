@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box; 
+    font-family: cursive;
+   
+    
+}
+
+body{
+    
+    background: linear-gradient(to right,#7a7a7a,#e3e0e0);
+}
+.welcome{
+    width: 100vw;
+    height: 18vh;
+   }
+
+.head{
+    margin-left:20px;
+    margin-top: 30px;
+
+    
+}
+
+.pic{
+    width: 200px;
+    height: 250px;
+    margin-left: 55px;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+#button{
+    width: 150px;
+    height:40px ;
+    background-color:rosybrown;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+.second{
+   flex-direction:column;
+    justify-self:flex-start;
+    display:flex;
+ margin-top: 100px;
+}
+.hello{
+    width: 360px;
+    height: 430px;
+    background-color:#ece4e9;
+    word-spacing: 6px;
+    padding: 10px;
+   
+    
+}
+.skills{
+    display: flex;
+   flex-wrap: wrap;
+    margin-top: 30px;
+}
+ #ht{
+     width: 100px;
+     height: 50px;
+     border-radius: 20px;
+     background-color: lightpink;
+ }
+#cs{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    margin-left: 5px;
+    background-color: lightpink;
+    
+}
+#gt{
+     width: 100px;
+height: 50px;
+border-radius: 20px;
+margin-left: 5px;
+background-color: lightpink;
+
+}
+#c{width: 100px;
+    height: 50px;
+    border-radius: 20px;
+margin-left: 5px;
+margin-top: 5px;
+background-color: lightpink;
+}
+#exp{width: 100px;
+    height: 50px;
+border-radius:20px ;
+margin-top: 5px;
+background-color: lightpink;
+}
+#read{ width: 100px;
+    height: 50px;
+border-radius: 20px;
+margin-left: 5px;
+margin-top: 5px;
+background-color: lightpink;
+
+}
+
+.btn{
+    width: 360px;
+    height: 450px;
+    background-color:#dbe9ea;
+    word-spacing: 6px;
+    padding: 10px;
+}
+#contact{
+    width: 150px;
+    height: 50px;
+margin-top: 50px;
+margin-left: 150px;
+border-radius: 5px;
+    color: black;
+    background-color:rgb(197, 169, 196);
+}
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 10px;    
+}
+.fb{
+    width: 50px;
+    height: 50px;
+}
+.bird{
+    width: 50px;
+    height: 50px;
+}
+.insta{
+    width: 50px;
+    height: 50px;
+}
+.linked{
+    width: 50px;
+    height: 50px;
+}
+.phone{
+    display: flex;
+    
+   padding: 20px;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+
+   @media(min-width:1024px) {
+    .pic{
+        width: 250px;
+        height: 300px;
+    }
+    .head{
+        margin-top: -300px;
+        margin-left: 350px;
+    }
+    .second{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .hello{
+        width: 500px;
+        height: 400px;
+    }
+    .btn{
+        width: 500px;
+        height: 400px;
+    }
+    .phone{
+        padding: 40px;
+        font-size: 20px;
+    }
+}   
